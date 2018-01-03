@@ -1,0 +1,12 @@
+.jumbotron {
+	background-color: pink;
+	background-image: url('background.jpg');
+	background-size: 100% auto;
+	background-position: center;
+	background-size: center;
+}
+
+.jumbotron > .container > h1 {
+	font-family: "Comic Sans MS";
+	color:lightskyblue;
+

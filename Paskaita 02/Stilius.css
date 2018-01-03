@@ -1,0 +1,157 @@
+@keyframes fade-in{
+
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+
+#Antraste {
+	background-color:#815166;
+	font-family: "courier";
+	color: white;
+	font-size: 30px;
+	padding: 40px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Big_Spring_Missouri_1-02Aug08.jpg/1024px-Big_Spring_Missouri_1-02Aug08.jpg);
+}
+
+#Meniu {
+	background-color: #f3c54c;
+	font-family: "courier";
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+#Turinys {
+	background-color: #1c1933;
+	background-size: cover;
+	font-family: "courier";
+	font-style: italic;
+	color: white;
+	text-shadow: 2px 2px #5c6f6f;
+	font-size: 30px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+body, h1, h2{
+	margin: 0px;
+
+}
+
+h2 {
+	text-align: left;
+	font-size: 30px;
+}
+
+h3 {
+	text-align: left;
+	font-size: 30px;
+}
+
+body {
+min-height: 100vh;
+background: #febbbb;
+background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%);
+background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%);
+background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 );
+}
+
+
+#Meniu a{
+	text-decoration: none;
+	font-size: 50px;
+	color: black;
+	border: 3px solid black;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#Meniu a:hover{
+	background-color: #fdf0b5;
+
+}
+
+#Meniu a:active {
+	background-color: blue;
+}
+
+#Raudonas_kvadratas {
+	height: 100px;
+	width: 300px;
+	background-color: red;
+	position:relative;
+	left:30px;
+	top: 20px;
+	animation-name: fade-in;
+	animation-duration: 10s;
+
+}
+
+.Nuotraukos {
+	position: relative;
+	max-width: 100%;
+	box-shadow: 0 0 10px black;
+	animation-name: fade-in;
+	animation-duration: 10s;
+}
+
+.Nuotraukos:hover{
+
+	box-shadow: 0 0 100px white;
+}
+
+.Nuotraukos_wrap{
+text-align: center;
+margin: 20px;
+
+}
+
+.Nuotraukos_tekstas{
+	position: absolute;
+	top: 700px;
+    left: 450px;
+    width: 100%;
+   	margin: 0 auto;
+   	width: 300px;
+   	height: 100px;
+   	font-size: 40px;
+   	animation-name: fade-in;
+	animation-duration: 10s;
+	margin: 10px;
+
+}
+
+.Single_Yellow {
+	height: 50px;
+	width: 300px;
+	background-color: yellow;
+	animation-name: fade-in;
+	animation-duration: 5s;
+}
+
+.Single_Green {
+	height: 50px;
+	width: 300px;
+	background-color: green;
+	animation-name: fade-in;
+	animation-duration: 5s;
+}
+
+.Single_Red {
+	height: 50px;
+	width: 300px;
+	background-color: red;
+	animation-name: fade-in;
+	animation-duration: 5s;
+}
+
+/* inline - aplink pati teksta
+	fixed - prilipintas, reikia nurodyti left ir bottom
+	absolute - puslapyje lygiuoja;
+	relative - skirtingo bloko lyguoja*/
+
+	
