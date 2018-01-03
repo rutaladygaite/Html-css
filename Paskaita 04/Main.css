@@ -1,0 +1,209 @@
+body{
+	margin: 0 auto;
+}
+
+nav {
+
+	background-color: powderblue;
+	text-shadow: 0.5px 1px black;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	line-height: 50px;
+	top: 0px;
+}
+
+nav>a.logo {
+	font-size: 20px;
+	color: white;
+	padding: 0px 10px;
+}
+
+
+nav>a {
+	color: white;
+	font-size: 20px;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+
+nav>a:hover{
+	color: black;
+}
+
+section.hero {
+	width: 100%;
+	min-height: 600px;
+	background-image: url('cupcake.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: black;
+	font-size: 18px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+section.hero > a {
+	text-decoration: none;
+	color:white;
+	background: rgba(0,0,0, 0.2);
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+
+section.hero > h1 {
+	color: white;
+	margin-top: 50px;
+	background: rgba(175,238,238, 0.8);
+	text-shadow: 0.5px 1px black;
+
+}
+
+section.hero>h3 {
+	color: white;
+	font-size: 32px;
+	background: rgba(175,238,238, 0.5);
+	text-shadow: 0.5px 1px black;
+
+}
+
+section.hero > a:hover {
+	background-color: rgba(0,0,0, 0.5);
+}
+
+ section.about-us {
+	padding: 10px 10px;
+	clear: both;
+	height: auto;
+
+}
+
+
+section.about-us > .image {
+	width: 49%;
+	float: left;
+}
+
+section.about-us > .image > .responsive {
+	width: 100%;
+
+}
+
+section.about-us > .text {
+	width: 49%;
+	float: right;
+}
+
+section.contacts {
+	background-color: rgb(175,238,238);
+	padding: 50px 20px;
+}
+
+section.contacts > .contact-text, section.contacts > .contact-form{
+	width: 49%;
+}
+
+section.contacts > .contact-text{
+	color: black;
+	text-align: right;
+	float: left;
+}
+
+section.contacts > .contact-form{
+	float: right;
+}
+
+section.contacts > .contact-form > .card {
+	color: black;
+	background-color: rgba(175,238,238, 0.5);
+	padding: 10px;
+} 
+
+section.contacts > .contact-form > .card input {
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+}
+
+section.contacts > .contact-form > .card textarea {
+	width: 100%;
+	border-radius: 5px;
+	resize: none;
+} 
+
+section.contacts > .contact-form > .card button {
+	padding: 8px 15px;
+	width: 30%;
+	border-radius: 5px;
+	border:1px solid teal;
+	color: black;
+	background-color: white;
+} 
+
+section.contacts > .contact-form > h1 {
+	color: black;
+} 
+
+section.prices {
+	padding: 50px 20px;
+	text-align: center;
+
+}
+
+section.prices >table  {
+	width: 100%;
+	text-align: central;
+	border: 1px solid black;
+}
+
+section.prices > table tr {
+	border: 1px solid black;
+}
+
+footer {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+footer >a {
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+	section.hero{
+		height: 600px;
+		background-size: cover;
+		background-position: center;
+	}
+	nav >a {
+		display: none;
+	}
+	nav > a.logo {
+	display: block;
+	float: left;
+	}
+
+	nav >a.on-mobile{
+		display: block;
+		float: right;
+	}
+
+	section.about-us > .text {
+	width: 100%;
+	}
+
+
+	section.about-us > .image {
+	width: 100%;
+	}
+}
+
+@media screen and (min-width: 601px){
+	nav >a.on-mobile {
+		display: none;
+}
+}

@@ -1,0 +1,37 @@
+div{
+	width: 200px;
+	height: 200px;
+}
+
+.static {
+	background-color: lightblue;
+	position: static;
+}
+
+.absolute {
+	position: absolute;
+	background-color: lightgreen;
+	top: 1px;
+	right:10px;
+}
+
+.fixed {
+	position: fixed;
+	background-color: tomato;
+	top: 500px;
+
+}
+
+.relative {
+	position: relative;
+	background-color: salmon;
+}
+
+.absolute-priklausoma-relative {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-color: lightyellow;
+	right: 10px;
+	z-index: -1;
+}
